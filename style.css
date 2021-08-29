@@ -1,3 +1,7 @@
+{
+  Margin: 0;
+  Padding: 0;
+}
 .container {
   display: flex;
   border: 2px solid blue;
@@ -5,3 +9,4 @@
   align-items: center;
   height: 100vh;
 }
+

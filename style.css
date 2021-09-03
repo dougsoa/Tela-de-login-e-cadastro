@@ -45,6 +45,10 @@ body {
   color: #fff;
 }
 
+.title-second {
+  color: #58af9b;
+}
+
 .description {
   font-size: 14px;
   font-weight: 300;
@@ -91,6 +95,20 @@ body {
 
 .list-social-media {
   display: flex;
+  list-style-type: none;
+}
+
+.item-social-media {
+  border: 1px solid #bdc3c7;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+}
+
+.list-social-media a {
+  color: #95a5a6;
 }
 
 .form {
@@ -102,3 +120,4 @@ body {
   position: absolute;
   display: none;
 }
+

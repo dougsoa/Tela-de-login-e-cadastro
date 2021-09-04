@@ -108,7 +108,7 @@ body {
 }
 
 .list-social-media a {
-  color: #95a5a6;
+  color: #fff;
 }
 
 .form {
@@ -120,4 +120,5 @@ body {
   position: absolute;
   display: none;
 }
+  
 

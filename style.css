@@ -52,8 +52,15 @@ body {
 .description {
   font-size: 14px;
   font-weight: 300;
-  color: #fff;
   line-height: 30px;
+}
+
+.description-primary {
+  color: #fff;
+}
+
+.description-second {
+  color: #7f8c8d;
 }
 
 .btn {
@@ -108,7 +115,7 @@ body {
 }
 
 .list-social-media a {
-  color: #fff;
+  color: #95a5a6;
 }
 
 .form {
@@ -120,5 +127,5 @@ body {
   position: absolute;
   display: none;
 }
-  
+
 

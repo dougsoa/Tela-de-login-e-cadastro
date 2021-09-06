@@ -71,6 +71,8 @@ body {
   padding: 10px 50px;
   cursor: pointer;
   font-weight: bold;
+  width: 150px;
+  align-self: center;
 }
 
 .btn-primary {
@@ -121,11 +123,18 @@ body {
 .form {
   display: flex;
   flex-direction: column;
+  width: 55%;
+}
+
+.form input {
+  height: 45px;
+  border: none;
+  background-color: #ecf0f1;
+  margin: 8px;
 }
 
 .second-content {
   position: absolute;
   display: none;
 }
-
 

@@ -20,7 +20,7 @@ body {
 .content {
   background-color: #fff;
   border-radius: 15px;
-  width: 80%;
+  width: 960px;
   height: 50%;
   justify-content: space-between;
   align-items: center;
@@ -33,6 +33,10 @@ body {
   background-color: #58af9b;
   width: 40%;
   height: 100%;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+
+  left: 60%;
 }
 
 .title {
@@ -73,6 +77,8 @@ body {
   font-weight: bold;
   width: 150px;
   align-self: center;
+  border: none;
+  margin: 1rem 0;
 }
 
 .btn-primary {
@@ -85,8 +91,20 @@ body {
   color: #58af9b;
 }
 
+.btn-second {
+  background-color: #58af9b;
+  border: 1px solid #58af9b;
+}
+
+.btn-second:hover {
+  background-color: #fff;
+  border: 1px solid #58af9b;
+  color: #58af9b;
+}
+
 .first-content {
   display: flex;
+  display: none;
 }
 
 .first-column {
@@ -102,9 +120,23 @@ body {
   align-items: center;
 }
 
+.social-media {
+  margin: 1rem 0;
+}
+
 .list-social-media {
   display: flex;
   list-style-type: none;
+}
+
+.list-social-media:hover .item-social-media {
+  background-color: #58af9b;
+  color: #fff;
+  border-color: #58af9b;
+}
+
+.link-social-media:not(:first-child) {
+  margin-left: 10px;
 }
 
 .item-social-media {
@@ -114,9 +146,6 @@ body {
   height: 35px;
   line-height: 35px;
   text-align: center;
-}
-
-.list-social-media a {
   color: #95a5a6;
 }
 
@@ -128,13 +157,40 @@ body {
 
 .form input {
   height: 45px;
+  width: 100%;
   border: none;
   background-color: #ecf0f1;
+}
+
+.label-input {
+  background-color: #ecf0f1;
+  display: flex;
+  align-items: center;
   margin: 8px;
 }
 
-.second-content {
-  position: absolute;
-  display: none;
+.icon-modify {
+  color: #7f8c8d;
+  padding: 0 5px;
 }
 
+/* Second Content */
+.second-content {
+  position: absolute;
+  display: flex;
+}
+
+.second-content .first-column {
+  order: 2;
+}
+
+.second-content .second-column {
+  order: 1;
+}
+
+.password {
+  color: #34495e;
+  font-size: 14px;
+  margin: 15px 0;
+  text-align: center;
+}

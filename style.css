@@ -223,17 +223,22 @@ input:-webkit-autofill {
 
 .sign-in-js .content::before {
   left: 60%;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 .sign-up-js .second-content .first-column,
 .sign-up-js .second-content .second-column {
   z-index: -1;
 }
-/* irá inverter os lados da tela */
+
 .sign-up-js .first-content .first-column,
 .sign-up-js .first-content .second-column {
   z-index: 11;
 }
+
 
 
 

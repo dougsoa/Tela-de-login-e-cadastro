@@ -227,6 +227,11 @@ input:-webkit-autofill {
   border-bottom-left-radius: 0;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
+  animation: slidein 3s;
+}
+
+.sign-up-js .content::before {
+  animation: slideout 3s;
 }
 
 .sign-up-js .second-content .first-column,
@@ -237,6 +242,62 @@ input:-webkit-autofill {
 .sign-up-js .first-content .first-column,
 .sign-up-js .first-content .second-column {
   z-index: 11;
+}
+
+/* ANIMAÇÃO CSS */
+
+@keyframes slidein {
+  from {
+    left: 0;
+    width: 40%;
+  }
+
+  25% {
+    left: 5%;
+    width: 50%;
+  }
+
+  50% {
+    left: 20%;
+    width: 60%;
+  }
+
+  75% {
+    left: 45%;
+    width: 50%;
+  }
+
+  to {
+    left: 60%;
+    width: 40%;
+  }
+}
+
+@keyframes slideout {
+  from {
+    left: 60;
+    width: 40%;
+  }
+
+  25% {
+    left: 45%;
+    width: 50%;
+  }
+
+  50% {
+    left: 20%;
+    width: 60%;
+  }
+
+  75% {
+    left: 5%;
+    width: 50%;
+  }
+
+  to {
+    left: 0%;
+    width: 40%;
+  }
 }
 
 
